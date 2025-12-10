@@ -1,16 +1,164 @@
-# Ignore uploaded images
+# Lost & Found Hub - .gitignore
+# Optimized for XAMPP PHP projects
+
+# ========================
+# UPLOADS FOLDER
+# ========================
+# Ignore all uploaded images but keep the folder
 uploads/*
 !uploads/.gitkeep
+!uploads/README.md
 
-# Ignore config (if contains sensitive data)
+# ========================
+# CONFIGURATION FILES
+# ========================
+# Uncomment the line below if your config.php contains sensitive data
 # config.php
 
-# Ignore system files
-.DS_Store
-Thumbs.db
-*.log
+# If you want to keep config.php but ignore a local version
+# config.local.php
 
-# Ignore IDE files
+# ========================
+# OPERATING SYSTEM FILES
+# ========================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ========================
+# IDE AND EDITOR FILES
+# ========================
+# Visual Studio Code
 .vscode/
+*.code-workspace
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# PhpStorm / IntelliJ IDEA
 .idea/
-*.sublime-*
+*.iml
+*.iws
+*.ipr
+
+# NetBeans
+nbproject/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# Eclipse
+.buildpath
+.project
+.settings/
+
+# Atom
+.atom/
+
+# ========================
+# PHP SPECIFIC
+# ========================
+# Composer (if you add it later)
+/vendor/
+composer.phar
+composer.lock
+
+# PHP unit testing (if you add it later)
+phpunit.xml
+.phpunit.result.cache
+
+# ========================
+# LOG FILES
+# ========================
+*.log
+*.sql.log
+error_log
+debug.log
+
+# Apache/XAMPP logs
+apache_error.log
+php_error.log
+
+# ========================
+# TEMPORARY FILES
+# ========================
+*.tmp
+*.temp
+*.cache
+*.bak
+*.swp
+*.swo
+*~
+
+# ========================
+# DATABASE BACKUP FILES
+# ========================
+# Keep database.sql but ignore backups
+backup_*.sql
+*.sql.gz
+*.sql.zip
+dump.sql
+
+# ========================
+# NODE MODULES (if you add npm later)
+# ========================
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# ========================
+# ENVIRONMENT FILES
+# ========================
+.env
+.env.local
+.env.*.local
+
+# ========================
+# BUILD AND DIST
+# ========================
+/build/
+/dist/
+/public/build/
+
+# ========================
+# SECURITY
+# ========================
+# Private keys
+*.key
+*.pem
+*.p12
+
+# Certificates
+*.crt
+*.cer
+
+# ========================
+# MISC
+# ========================
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# Office temporary files
+~$*
