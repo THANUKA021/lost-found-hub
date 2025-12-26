@@ -399,9 +399,9 @@ in the Software without restriction...
 
 **[Your Name]**
 
-- GitHub: [@your-username](https://github.com/THANUKA021)
+- GitHub: [THANUKA021](https://github.com/THANUKA021)
 - Email: thanukasachith1@gmail.com
-- LinkedIn: [Your Name](https://linkedin.com/in/thanuka-sachith-33230b305)
+- LinkedIn: [Thanuka Sachith](https://linkedin.com/in/thanuka-sachith-33230b305)
 
 ---
 
@@ -458,5 +458,6 @@ For questions or support, please open an issue or contact:
 **Made with ❤️ by [Thanuka sachith]**
 
 [⬆ Back to Top](#-lost--found-hub)
+
 
 </div>
