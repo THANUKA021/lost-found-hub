@@ -1,9 +1,9 @@
 <?php
 // Database configuration
-define('DB_HOST', 'localhost');
-define('DB_USER', 'root');
-define('DB_PASS', ''); // Default XAMPP password is empty
-define('DB_NAME', 'lost_found_hub');
+define('DB_HOST', 'sql111.infinityfree.com');
+define('DB_USER', 'if0_42683610');
+define('DB_PASS', 'your_mysql_password'); // the one you set when creating this DB
+define('DB_NAME', 'if0_42683610_lost_found_hub');
 
 // Create database connection
 function getDBConnection() {
